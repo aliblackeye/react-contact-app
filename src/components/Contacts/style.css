@@ -1,0 +1,65 @@
+.contacts {
+    background-color: #bce1e4;
+    width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.contact-items li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: rgb(255, 222, 227);
+    
+}
+
+.btn {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 2px;
+    padding:0.5rem 2rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color ease 0.3s;
+    
+}
+.btn:hover {
+    background-color: #ffe9e9;
+    
+}
+
+.form-btn {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contacts-form .add-btn {
+    margin-top: 10px;
+}
+
+.contacts-title {
+    margin-bottom: 20px
+}
+
+.result-counter {
+    margin-bottom: 20px;
+}
